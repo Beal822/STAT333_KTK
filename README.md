@@ -18,3 +18,9 @@ yearly_stats <- Teams %>%
 
 
 view(yearly_stats)
+
+
+# Importing team valuation data
+
+team_valuation <- read.csv("C:/Users/brend/Downloads/SBR001-mlbte1.csv", header = TRUE, skip = 3, check.names = FALSE)
+view(team_valuation)
