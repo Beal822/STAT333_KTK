@@ -20,7 +20,7 @@ yearly_stats <- Teams %>%
 view(yearly_stats)
 
 
-# Importing team valuation data
+# Importing team valuation data for all teams from 2016-2024
 
 team_valuation <- read.csv("C:/Users/brend/Downloads/SBR001-mlbte1.csv", header = TRUE, skip = 3, check.names = FALSE)
 view(team_valuation)
